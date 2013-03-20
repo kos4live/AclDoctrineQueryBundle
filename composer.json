@@ -1,0 +1,18 @@
+{
+    "name": "kos4live/acldoctrinequerybundle",
+    "description": "Symfony2 Helper Bundle for ACL",
+    "version": "1.0.0",
+    "homepage": "https://github.com/kos4live/AclDoctrineQueryBundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/famework-bundle": "2.2.*",
+        "doctrine/orm": "2.2.*",
+        "doctrine/doctrine-bundle": "1.2.*"
+    },
+    "autoload": {
+        "psr-0": { "kos4live\\AclDoctrineQueryBundle": "" }
+    },
+    "target-dir": "kos4live/AclDoctrineQueryBundle"
+}
