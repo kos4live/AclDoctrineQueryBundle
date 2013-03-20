@@ -7,7 +7,7 @@
     "license": "MIT",
     "require": {
         "php": ">=5.3.3",
-        "symfony/famework-bundle": "2.2.*",
+        "symfony/framework-bundle": "2.2.*",
         "doctrine/orm": "2.2.*",
         "doctrine/doctrine-bundle": "1.2.*"
     },
