@@ -23,3 +23,7 @@ Usage:
     $result = $query->getArrayResult();
 
 The $user parameter of apply() is optional and if is not set or null, the securityContext would use to determine the current user.
+
+
+Don't forget add to AppKernel.php
+    new kos4live\AclDoctrineQueryBundle\kos4liveAclDoctrineQueryBundle(),
