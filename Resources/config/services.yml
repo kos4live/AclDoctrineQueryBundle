@@ -1,0 +1,12 @@
+parameters:
+  kos4live.acl_doctrine_query.helper.class: kos4live\AclDoctrineQueryBundle\Helper\AclQuery
+  kos4live.acl_doctrine_query.walker.class: kos4live\AclDoctrineQueryBundle\Helper\Doctrine\AclWalker
+
+services:
+  kos4live.acl_doctrine_query.helper:
+    class: %kos4live.acl_doctrine_query.helper.class%
+    arguments:
+      - %kos4live.acl_doctrine_query.walker.class%
+      - @doctrine
+      - @security.acl.dbal.connection
+      - @security.context
