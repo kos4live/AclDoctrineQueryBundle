@@ -110,7 +110,7 @@ class AclQuery
             $firstFromQueryAlias = $fromQueryParts[0]->getAlias();
             // this will help in cases where no where query is specified,
             // where query is required to walk in where clause
-            $queryBuilder->where($firstFromQueryAlias . '.id > 0');
+            $queryBuilder->where($firstFromQueryAlias . '.id IS NOT NULL');
         }
 
         $query = $this->cloneQuery($queryBuilder->getQuery());
