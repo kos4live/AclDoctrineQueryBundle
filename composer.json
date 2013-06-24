@@ -1,7 +1,7 @@
 {
     "name": "kos4live/acldoctrinequery-bundle",
     "description": "Symfony2 Helper Bundle for ACL",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "homepage": "https://github.com/kos4live/AclDoctrineQueryBundle",
     "type": "symfony-bundle",
     "license": "MIT",
